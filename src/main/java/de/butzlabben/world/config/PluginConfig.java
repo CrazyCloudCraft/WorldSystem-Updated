@@ -1,23 +1,26 @@
 package de.butzlabben.world.config;
 
-import de.butzlabben.WorldSystem;
-import de.butzlabben.world.exceptions.InvalidConfigFormatException;
-import de.butzlabben.world.util.PlayerPositions;
-import net.md_5.bungee.api.ChatColor;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.java.JavaPlugin;
 
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import de.butzlabben.world.exceptions.InvalidConfigFormatException;
+import de.butzlabben.world.util.PlayerPositions;
+import net.md_5.bungee.api.ChatColor;
 
 public class PluginConfig {
 
@@ -25,10 +28,16 @@ public class PluginConfig {
     private YamlConfiguration config;
     private File configFile;
 
+    public File getConfigFile() {
+		return configFile;
+	}
 
+	public void setConfigFile(File configFile) {
+		this.configFile = configFile;
+	}
     //TODO Document
     public PluginConfig(File configFile) throws FileNotFoundException {
-        this.configFile = configFile;
+        this.setConfigFile(configFile);
         try {
             config = YamlConfiguration.loadConfiguration(
                     new InputStreamReader(new FileInputStream(configFile), StandardCharsets.UTF_8));
