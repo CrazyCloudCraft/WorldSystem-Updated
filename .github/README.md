@@ -3,9 +3,9 @@
 </p>
 <p align="center">
     <a href="https://github.com/CrazyCloudCraft/worldsystem-updated-old/releases">
-    <img src="https://img.shields.io/github/downloads/CrazyCloudCraft/worldsystem-updated-old/total?color=green&label=All%20downloads&style=plastic" />
+    <img src="https://img.shields.io/github/downloads/CrazyCloudCraft/WorldSystem-Updated/total?color=green&label=All%20downloads&style=plastic" />
     <a href="https://github.com/CrazyCloudCraft/worldsystem-updated-old/releases">
-    <img src="https://img.shields.io/github/downloads-pre/CrazyCloudCraft/worldsystem-updated-old/v2.4.32/total?label=Downloads%20latest&sort=semver&style=plastic" />
+    <img src="https://img.shields.io/github/downloads-pre/CrazyCloudCraft/WorldSystem-Updated/v2.4.32/total?label=Downloads%20latest&sort=semver&style=plastic" />
 </a>
    
 <p align="center">
@@ -17,14 +17,6 @@
 <h2 align="center">
     About
 </h2>
-<p align="center">
-<a>Daniel (Trainerlord) ~Hey Sorry I've been away for a while and neglating this plugin. However I have new Vigor and Currently planing out what I want to do with the plugin.
-Right now I'm setting small goals to help improve the robustness of the plugin before I go and add any new features and you can see what I'm planing by checking the issues tab. I want to work through all the issues currently there before adding
-any feature requests.<a>
-<a>-Thank you.<a>
-</p>
-  
----
   
 <p align="center">
   <a>WorldSystem is a plugin where every player can get a world.</a>
