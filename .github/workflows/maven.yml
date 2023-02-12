@@ -24,9 +24,9 @@ jobs:
         cache: maven
     - name: Grant execute permission to pom.xml
       run: |
-          wget -q https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
-          tar xzvf apache-maven-3.8.6-bin.tar.gz
-          export PATH=./apache-maven-3.8.6/bin:$PATH
+          wget -q https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.tar.gz
+          tar xzvf apache-maven-3.9.0-bin.tar.gz
+          export PATH=./apache-maven-3.9.0/bin:$PATH
 
     - name: Build with Maven
-      run: mvn package --file pom.xml
+      run: mvn package -T C1 --file pom.xml
