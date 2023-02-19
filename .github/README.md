@@ -25,7 +25,10 @@ Leaving a good review</br>
   
 ***
   <a href="https://www.spigotmc.org/resources/49756/">Download Resource (Spigot.com)</a><br>
+
   <a href="https://www.spigotmc.org/conversations/add?to=trainerlord">Contact author on spigot</a>
   (rather consider to create an issue here)<br>
+
   <a href="https://discord.gg/WYz7Qck">Discord server</a><br>
+
   Author on Discord: Trainerlord#3534 or N1klasse#1486
