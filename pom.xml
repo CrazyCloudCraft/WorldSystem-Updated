@@ -6,7 +6,7 @@
 
     <groupId>de.butzlabben</groupId>
     <artifactId>WorldSystem</artifactId>
-    <version>2.4.33-SNAPSHOT</version>
+    <version>2.4.35-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
